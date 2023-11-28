@@ -1,0 +1,412 @@
+{
+  "kalat": [
+    {
+      "id": 1,
+      "laji": "Taimen",
+      "suurin_suojeluarvosumma": 3260,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 1,
+          "paikkakunta": "Lappeenranta",
+          "maara": 1
+        },
+        {
+          "id": 2,
+          "paikkakunta": "Espoo.",
+          "maara": 1
+        },
+        {
+          "id": 3,
+          "paikkakunta": "Helsinki",
+          "maara": 1
+        },
+        {
+          "id": 4,
+          "paikkakunta": "Inari",
+          "maara": 13
+        },
+        {
+          "id": 5,
+          "paikkakunta": "Lemi",
+          "maara": 17
+        },
+        {
+          "id": 6,
+          "paikkakunta": "Merikarvia",
+          "maara": 14580
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "laji": "Lohi",
+      "suurin_suojeluarvosumma": 7510,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 7,
+          "paikkakunta": "Kuopio",
+          "maara": 1
+        },
+        {
+          "id": 8,
+          "paikkakunta": "Lapua",
+          "maara": 1100
+        },
+        {
+          "id": 9,
+          "paikkakunta": "Oulu",
+          "maara": 45060
+        },
+        {
+          "id": 10,
+          "paikkakunta": "Pori",
+          "maara": 14
+        },
+        {
+          "id": 11,
+          "paikkakunta": "Rauma",
+          "maara": 16
+        },
+        {
+          "id": 12,
+          "paikkakunta": "Lemi",
+          "maara": 1042
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "laji": "Nieriä",
+      "suurin_suojeluarvosumma": 5100,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 13,
+          "paikkakunta": "Inari",
+          "maara": 1
+        },
+        {
+          "id": 14,
+          "paikkakunta": "Lapua",
+          "maara": 850
+        },
+        {
+          "id": 15,
+          "paikkakunta": "Haapajärvi",
+          "maara": 8
+        },
+        {
+          "id": 16,
+          "paikkakunta": "Nivala",
+          "maara": 24
+        },
+        {
+          "id": 17,
+          "paikkakunta": "Oulu",
+          "maara": 85
+        },
+        {
+          "id": 18,
+          "paikkakunta": "Turku",
+          "maara": 816
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "laji": "Harjus",
+      "suurin_suojeluarvosumma": 1360,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 19,
+          "paikkakunta": "Utsjoki",
+          "maara": 51
+        },
+        {
+          "id": 20,
+          "paikkakunta": "Inari",
+          "maara": 54
+        },
+        {
+          "id": 21,
+          "paikkakunta": "Ii",
+          "maara": 7520
+        },
+        {
+          "id": 22,
+          "paikkakunta": "Lieksa",
+          "maara": 1
+        },
+        {
+          "id": 23,
+          "paikkakunta": "Taivalkoski",
+          "maara": 1
+        },
+        {
+          "id": 24,
+          "paikkakunta": "Kuusamo",
+          "maara": 680
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "laji": "Nahkiainen",
+      "suurin_suojeluarvosumma": 100,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 25,
+          "paikkakunta": "Rauma",
+          "maara": 150
+        },
+        {
+          "id": 26,
+          "paikkakunta": "Pori",
+          "maara": 35
+        },
+        {
+          "id": 27,
+          "paikkakunta": "Laukaa",
+          "maara": 1
+        },
+        {
+          "id": 28,
+          "paikkakunta": "Ähtäri",
+          "maara": 1
+        },
+        {
+          "id": 29,
+          "paikkakunta": "Jyväskylä",
+          "maara": 4
+        },
+        {
+          "id": 30,
+          "paikkakunta": "Hämeenlinna",
+          "maara": 2
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "laji": "Siika",
+      "suurin_suojeluarvosumma": 460,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 31,
+          "paikkakunta": "Oulu",
+          "maara": 1
+        },
+        {
+          "id": 32,
+          "paikkakunta": "Helsinki",
+          "maara": 1
+        },
+        {
+          "id": 33,
+          "paikkakunta": "Espoo",
+          "maara": 41
+        },
+        {
+          "id": 34,
+          "paikkakunta": "Tammisaari",
+          "maara": 30
+        },
+        {
+          "id": 35,
+          "paikkakunta": "Hanko",
+          "maara": 1
+        },
+        {
+          "id": 36,
+          "paikkakunta": "Hamina",
+          "maara": 15
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "laji": "Ankerias",
+      "suurin_suojeluarvosumma": 3510,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 37,
+          "paikkakunta": "Oulu.",
+          "maara": 15
+        },
+        {
+          "id": 38,
+          "paikkakunta": "Lapua",
+          "maara": 1
+        },
+        {
+          "id": 39,
+          "paikkakunta": "Ilmajoki",
+          "maara": 2949
+        },
+        {
+          "id": 40,
+          "paikkakunta": "Kauhajoki",
+          "maara": 1
+        },
+        {
+          "id": 41,
+          "paikkakunta": "Lemi",
+          "maara": 20
+        },
+        {
+          "id": 42,
+          "paikkakunta": "Kuusamo",
+          "maara": 351
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "laji": "Jokirapu",
+      "suurin_suojeluarvosumma": 50,
+      "rekisteroidyt_saaliit": [
+        {
+          "id": 43,
+          "paikkakunta": "Kauhajoki",
+          "maara": 18
+        },
+        {
+          "id": 44,
+          "paikkakunta": "Kauhava",
+          "maara": 104
+        },
+        {
+          "id": 45,
+          "paikkakunta": "Merikarvia",
+          "maara": 4
+        },
+        {
+          "id": 46,
+          "paikkakunta": "Kihniö",
+          "maara": 1
+        },
+        {
+          "id": 47,
+          "paikkakunta": "Karstula",
+          "maara": 2
+        },
+        {
+          "id": 48,
+          "paikkakunta": "Lapua",
+          "maara": 2
+        }
+      ]
+    }
+  ],
+  "rajoitukset": [
+    {
+      "id": 1,
+      "laji": "Rasvaevällinen taimen",
+      "minPyyntimitta": "Leveyspiirin 67º00´N pohjoispuolisissa vesissä vähintään 50 cm, Leveyspiireillä 64º00´N–67º00´N vähintään 60 cm. Purossa tai lammessa, johon ei ole vaellusyhteyttä merestä tai järvestä, enintään 45 cm.",
+      "rauhoitusaika": "Vuodesta 2019 alkaen kokonaan rauhoitettu kaikilla merialueilla. Sisävesissä leveyspiirin 64º00´N eteläpuolella kokonaan rauhoitettu. Ei koske taimenta, joka on pyydetty purosta tai lammesta, johon ei ole vaellusyhteyttä merestä tai järvestä. Joessa ja purossa 1.9.–30.11."
+    },
+    {
+      "id": 2,
+      "laji": "Rasvaeväleikattu taimen",
+      "minPyyntimitta": "Vähintään 50 cm.",
+      "rauhoitusaika": "Joessa ja purossa 1.9.–30.11."
+    },
+    {
+      "id": 3,
+      "laji": "Lohi",
+      "minPyyntimitta": "Vähintään 60 cm. Leveyspiirin 63º30´N pohjoispuolella Perämeressä vähintään 50 cm.",
+      "rauhoitusaika": "Joessa ja purossa 1.9.–30.11."
+    },
+    {
+      "id": 4,
+      "laji": "Rasvaevällinen järvilohi",
+      "minPyyntimitta": "Vähintään 60 cm.",
+      "rauhoitusaika": "Vuoksen ja Hiitolanjoen vesistöt kokonaan rauhoitettu. Joessa ja purossa 1.8.–30.11."
+    },
+    {
+      "id": 5,
+      "laji": "Rasvaeväleikattu järvilohi",
+      "minPyyntimitta": "Vähintään 60 cm.",
+      "rauhoitusaika": "Vuoksen ja Hiitolanjoen asetuksen karttaliitteen mukaisissa vesissä 1.6–31.8. Joessa ja purossa 1.8.–30.11."
+    },
+    {
+      "id": 6,
+      "laji": "Nieriä",
+      "minPyyntimitta": "Vuoksen vesistössä vähintään 60 cm. Inarijärvessä vähintään 45 cm.",
+      "rauhoitusaika": "Kokonaan rauhoitettu Kuolimossa ja Saimaassa Puumalansalmen ja Vuoksenniskan välisellä alueella. Muualla Vuoksen vesistössä 1.9.–30.11."
+    },
+    {
+      "id": 7,
+      "laji": "Harjus",
+      "minPyyntimitta": "Leveyspiirin 67 º00´N eteläpuolella vähintään 35 cm ja pohjoispuolella vähintään 30 cm.",
+      "rauhoitusaika": "Meressä kokonaan rauhoitettu. Sisävesissä leveyspiirin 67 º00`N eteläpuolella 1.4.–31.5."
+    },
+    {
+      "id": 8,
+      "laji": "Siika",
+      "minPyyntimitta": "Ei rajoitettuja pyyntimittoja",
+      "rauhoitusaika": "Mereen laskevassa joessa ja purossa 1.9.–30.11."
+    },
+    {
+      "id": 9,
+      "laji": "Nahkiainen",
+      "minPyyntimitta": "Ei rajoitettuja pyyntimittoja",
+      "rauhoitusaika": "1.4.–15.8."
+    },
+    {
+      "id": 10,
+      "laji": "Kuha",
+      "minPyyntimitta": "Vähintään 42 cm.",
+      "rauhoitusaika": "Ei ole"
+    },
+    {
+      "id": 11,
+      "laji": "Ankerias",
+      "minPyyntimitta": "Ei rajoitettuja pyyntimittoja.",
+      "rauhoitusaika": "1.8.–30.6."
+    }
+  ],
+  "sakotetut": [
+    {
+      "id:": 1,
+      "nimi": "Pera",
+      "ika": 45,
+      "paikkakunta": "Sipoo"
+    },
+    {
+      "id:": 2,
+      "nimi": "Teppo",
+      "ika": 23,
+      "paikkakunta": "Lempäälä"
+    },
+    {
+      "id": 3,
+      "nimi": "Heke",
+      "ika": "12",
+      "paikkakunta": "Helsinki"
+    },
+    {
+      "id": 5,
+      "nimi": "Maija",
+      "ika": "66",
+      "paikkakunta": "Sotkamo"
+    },
+    {
+      "id": 26,
+      "nimi": "Ben",
+      "ika": "77",
+      "paikkakunta": "Helsinki"
+    },
+    {
+      "id": 18,
+      "nimi": "Alan",
+      "ika": "73",
+      "paikkakunta": "Kotka"
+    },
+    {
+      "id": 13,
+      "nimi": "Arska",
+      "ika": "33",
+      "paikkakunta": "Hesa"
+    }
+  ]
+}

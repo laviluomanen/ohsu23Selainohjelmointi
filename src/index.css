@@ -1,0 +1,603 @@
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+html {
+  background-image: url('/jamijarvi.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+
+body {
+  margin: 0;
+}
+  
+  a {
+    font-weight: 500;
+    color: #000000;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+ 
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: rgba(138, 136, 17, 0.87);
+  }
+
+  button:hover {
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+ 
+  
+
+  
+.header {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.header a {
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+  
+  }
+
+.header a:active {
+  color: rgba(27, 49, 121, 0.87);
+}
+
+.header a:hover {
+  color: rgba(138, 136, 17, 0.87);
+}
+
+.footerIndex {
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  height: 50px;
+  padding-bottom: 0;
+}
+
+.footer {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  padding-top: 30px;
+}
+
+/*
+SAALIIT
+*/
+
+.saaliitContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(138, 136, 17, 0.87);
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+  align-items: center;
+}
+
+.saaliitInfo {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 100%;
+  flex-direction: column;
+}
+
+.saaliitInfo h1 {
+  text-align: center;
+  font-size: 99px;
+}
+
+.saaliitInfo p {
+  text-align: justify;
+  
+}
+
+.laji {
+  padding-left: 8%;
+  padding-right: 8%;
+  text-transform: uppercase;
+  padding-bottom: 3%;
+}
+
+.laji h3 {
+  text-align: center;
+  color: rgba(61, 86, 86, 1);
+  font-size: 30px;
+}
+
+.saaliitTaulu { 
+  border-collapse: collapse;
+  border: none;
+  text-align: left;
+}
+
+.saaliitTaulu th td {
+  padding: 15px;
+  border-bottom: 1px solid #000000;
+  font-size: 15px;
+}
+
+.saaliitTaulu td {
+  font-size: 18;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+
+.saaliitTaulu tr {
+  font-size: 18;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/*
+RAJOITUKSET
+*/
+
+.rajoituksetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(24, 23, 23, 0.87);
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+}
+
+.rajoituksetContainer p {
+  text-align: justify;
+}
+
+
+.rajoituksetContainer h1 {
+  font-size: 99px;
+}
+
+.rajoituksetContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.rajoituksetContainer a:visited {
+  color: white;
+}
+
+.rajoituksetContainer a:hover {
+  color: rgba(138, 136, 17, 0.87);
+}
+
+.rajoituksetTaulu {
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+.rajoituksetTaulu th, td {
+  padding: 15px;
+  border: none;
+  border-bottom: 1px solid rgba(138, 136, 17, 0.87);
+}
+
+.sakotetutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.87);
+  padding-left: 5%;
+  padding-right: 10%;
+  background-position: 100%;
+}
+
+.sakotetutInfo {
+  text-align: justify;
+  width: 100%;
+}
+
+.sakotetutInfo h1 {
+  font-size: 90px;
+  text-align: center;
+  color: black;
+}
+
+.sakotetutInfo p {
+  color: black;
+  text-align: center;
+}
+
+
+.sakotetunLisays {
+  flex-direction: row;
+  justify-content: left;
+  padding-right: 10%;
+}
+
+.sakotetunLisays h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sakotetunLisays {
+  color: black;
+}
+
+/* Style inputs */
+.sakotetunLisays input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0b5b74;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: seashell;
+
+}
+
+
+
+.etsiJaLista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.etsiJaLista input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0b5b74;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: seashell;
+}
+
+.sakotetutFilter {
+  color: black;
+}
+
+.sakotetutFilter h2 {
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+.sakotetutTaulu {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.sakotetutTaulu th {
+  color: black;
+}
+
+.sakotettuRivit td {
+  padding: 20px;
+  color: black;
+}
+
+
+
+/* Responsiivisuus */
+
+/*  Linkit päällekäin ja pieni väritehoste */
+@media screen and (max-width: 800px) {
+  .header{
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(47, 75, 78));
+    border-bottom: 1px solid #3D5656;
+  }
+
+  /* 
+      Luodaan linkeille box-shadow:lla
+      borderin kaltainen raja + poistetaan tekstin suureneminen
+    */
+    .header a {
+      margin-top: 5px;
+      padding: 5px;
+      text-decoration: none;
+      font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      border-bottom: 1px transparent rgba(61, 86, 86, 1);
+      box-shadow: 0px 40px 40px rgba(0, 0, 0, .1);
+  }
+  
+  /* 
+    Otetaan hover rumasti "pois"
+  */
+  .header a:hover {
+      background-color: transparent;
+      text-decoration: none;
+      color: rgba(138, 136, 17, 0.87);
+      font-size: 20px;
+  }
+
+  /*
+    Indikaatio käyttäjälle
+    onnistuneesta painalluksesta
+  */
+  .header a:active {
+      color: #3D5656;
+  }
+
+  /*
+    Tasataan pienemmälle ruudulle teksti
+    Pienemmät puskurit
+  */
+  .header p {
+      text-align: justify;
+      margin-top: 0px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 20px;
+      padding-bottom: 5px;
+  }
+
+ table {
+  padding: 0%;
+  font-size: 13px;
+  overflow-wrap: break-word;
+ }
+
+ .saaliitContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(138, 136, 17, 0.87);
+  padding-left: 0%;
+  padding-right: 0%;
+  justify-content: justify;
+  align-items: justify;
+}
+
+.saaliitInfo {
+  flex: 100%;
+  margin: auto;
+  padding: 0%;
+}
+
+.saaliitInfo h1 {
+  font-size: 25px;
+}
+.saaliitInfo p {
+  text-align: justify;
+  font-size: 13px;
+  padding: 3%;
+}
+
+.saaliitTaulu { 
+  border-collapse: collapse;
+  border: none;
+  text-align: left;
+  padding: 0%;
+  font-size: 10px;
+  overflow-wrap: break-word;
+}
+
+.saaliitTaulu th td {
+  padding: 15px;
+  border-bottom: 1px solid #000000;
+  font-size: 15px;
+}
+
+.saaliitTaulu td {
+  font-size: 18;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+
+.saaliitTaulu tr {
+  font-size: 18;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.rajoituksetContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(24, 23, 23, 0.87);
+  padding-left: 20%;
+  padding-right: 20%;
+  justify-content: center;
+}
+
+.rajoituksetContainer p {
+  text-align: justify;
+}
+
+
+.rajoituksetContainer h1 {
+  font-size: 25px;
+}
+
+.rajoituksetContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.rajoituksetContainer a:visited {
+  color: white;
+}
+
+.rajoituksetContainer a:hover {
+  color: rgba(138, 136, 17, 0.87);
+}
+
+.rajoituksetTaulu {
+  padding: 0px;
+  border: none;
+  font-size: 12px;
+  overflow-wrap: break-word;
+}
+
+.rajoituksetTaulu th, td {
+  padding: 0px;
+  border: none;
+  border-bottom: 1px solid rgba(138, 136, 17, 0.87);
+}
+
+.sakotetutContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.87);
+  padding-left: 5%;
+  padding-right: 10%;
+  background-position: 100%;
+  min-height: 100%;
+}
+
+.sakotetutInfo {
+  width: 100%;
+}
+
+.sakotetutInfo h1 {
+  font-size: 35px;
+  text-align: center;
+  color: black;
+}
+
+.sakkoNappi {
+  justify-content: center;
+}
+
+.sakotetutInfo p {
+  color: black;
+  text-align: justify;
+}
+
+
+.sakotetunLisays {
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.sakotetunLisays button {
+  justify-content: center;
+}
+
+.sakotetunLisays h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.sakotetunLisays {
+  color: black;
+}
+
+/* Style inputs */
+.sakotetunLisays input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0b5b74;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: seashell;
+
+}
+
+
+
+.etsiJaLista {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-left: 5%;
+}
+
+.etsiJaLista input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0b5b74;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: seashell;
+}
+
+.sakotetutFilter {
+  color: black;
+}
+
+.sakotetutFilter h2 {
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+}
+
+.sakotetutTaulu {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.sakotetutTaulu th {
+  color: black;
+}
+
+.sakotettuRivit td {
+  padding: 20px;
+  color: black;
+}
+
+.header a:active {
+  color: black;
+}
+
+}
