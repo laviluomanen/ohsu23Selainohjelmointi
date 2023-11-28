@@ -407,6 +407,24 @@
       "nimi": "Arska",
       "ika": "33",
       "paikkakunta": "Hesa"
+    },
+    {
+      "id": 69,
+      "nimi": "Aatos",
+      "ika": "4",
+      "paikkakunta": "Nurmo"
+    },
+    {
+      "id": 95,
+      "nimi": "Anna",
+      "ika": "19",
+      "paikkakunta": "Ypäjä"
+    },
+    {
+      "id": 33,
+      "nimi": "Akseli",
+      "ika": "87",
+      "paikkakunta": "Posio"
     }
   ]
 }

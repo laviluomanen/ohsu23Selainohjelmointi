@@ -1,16 +1,18 @@
-import axios from 'axios'
 import { useState, useEffect } from 'react'
-
+import saaliitService from '../services/saaliitService' 
 
 const Saaliit = () => {
   const [kalat, setKalat] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/kalat').then((kalat) => {
-      console.log(kalat.data);
-      setKalat(kalat.data);
+    saaliitService
+    .getAll()
+    .then((responseSaalis) => {
+      setKalat(responseSaalis);
     })
-    .catch((error) => console.log(error));
+    .catch(error => {
+      alert('Haku ei onnistunut!')
+    });
   }, [])
 
     return (

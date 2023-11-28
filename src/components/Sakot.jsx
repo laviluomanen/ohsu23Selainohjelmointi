@@ -1,8 +1,5 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
-import { UNSAFE_DataRouterContext } from 'react-router-dom'
-
-const sakotetutUrl = 'http://localhost:3001/sakotetut'
+import sakotService from '../services/sakotService' 
 
 const Sakot = () => {
   const [sakotetut, setSakotetut] = useState([])
@@ -48,24 +45,29 @@ const Sakot = () => {
     }
 
     else{
-      axios
-        .post('http://localhost:3001/sakotetut', sakotettavaObject)
-        .then(response => {
-          console.log(response)
+      sakotService
+      .create(sakotettavaObject)
+        .then(returnedSakotettava => {
+          setSakotetut(sakotetut.concat(returnedSakotettava))
+          setNewNimi('')
+          setNewIka('')
+          setNewPaikkakunta('')
         })
-      setNewNimi('')
-      setNewIka('')
-      setNewPaikkakunta('')
-      setSakotetut(sakotetut.concat(sakotettavaObject))
+        .catch(error => {
+          alert('Lisäys ei onnistunut!')
+        })
     }
 
   }
 
   const deleteSakotettu = (kohde) => {
-    axios
-      .delete(`http://localhost:3001/sakotetut/${kohde.id}`)
+    sakotService
+    .deleteOne(kohde.id)
       .then(response => {
         console.log(response)
+      })
+      .catch(error => {
+        alert('Poisto ei onnistunut!')
       })
     setSakotetut(sakotetut => {
       return sakotetut.filter(sakotettu => sakotettu !== kohde)
@@ -73,12 +75,13 @@ const Sakot = () => {
   }
 
     useEffect(() => {
-        //console.log('effect')
-        axios
-        .get('http://localhost:3001/sakotetut')
-        .then(response => {
-          //console.log('promise fulfilled')
-          setSakotetut(response.data)
+        sakotService
+        .getAll()
+        .then(initialSakot => {
+          setSakotetut(initialSakot)
+        })
+        .catch(error => {
+          alert('Haku ei onnistunut!')
         })
       }, [])
 

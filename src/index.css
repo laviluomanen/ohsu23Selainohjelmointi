@@ -519,7 +519,6 @@ RAJOITUKSET
 .sakotetunLisays {
   flex-direction: column;
   justify-content: center;
-  padding-right: 0px;
   align-items: center;
   text-align: center;
 }
@@ -556,7 +555,7 @@ RAJOITUKSET
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  padding-left: 5%;
+  padding-left: 3%;
 }
 
 .etsiJaLista input {

@@ -1,15 +1,18 @@
-import axios from 'axios'
 import { useState, useEffect } from 'react'
+import rajoituksetService from '../services/kalastusrajoituksetService' 
 
 const Rajoitukset = () => {
   const [rajoitukset, setRajoitukset] = useState([]);
 
   useEffect(() => {
-    axios.get('http://localhost:3001/rajoitukset').then((rajoitukset) => {
-      console.log(rajoitukset.data);
-      setRajoitukset(rajoitukset.data);
+    rajoituksetService
+    .getAll()
+    .then((responseRajoitus) => {
+      setRajoitukset(responseRajoitus);
     })
-    .catch((error) => console.log(error));
+    .catch(error => {
+      alert('Haku ei onnistunut!')
+    });
   }, [])
     
     return (
