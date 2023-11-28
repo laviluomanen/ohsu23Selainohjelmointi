@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import { UNSAFE_DataRouterContext } from 'react-router-dom'
 
 const sakotetutUrl = 'http://localhost:3001/sakotetut'
 
@@ -144,6 +145,11 @@ const Sakot = () => {
     </table>
       </div>
       </div>
+      <div className="footer">
+        <footer>
+        <img src="SeAMK_logo_valkoinen_fi_en.png" alt="SeAMK logo" width="103" height="35"></img>
+        </footer>
+        </div>
         </div>
     )
 }
